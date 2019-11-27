@@ -162,7 +162,7 @@ DEFAULT_FROM_EMAIL = 'your email'
 
 # 媒体文件地址
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CKEDITOR_CONFIGS = {
     # django-ckeditor默认使用default配置
